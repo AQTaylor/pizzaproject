@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <title>Pizza</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+    <style>
+        body,h1,h2,h3,h4,h5,h6 {
+           font-family: "Amatic SC", sans-serif;
+           color: yellow; /* Text color */
+           background-color: black; /* Background color */
+        }
+        .w3-bar-item {
+           color: yellow; /* Navbar link color */
+        }
+        .w3-bar-item:hover {
+           color: #ffd700; /* Navbar link hover color */
+        }
+        .w3-button {
+           background-color: yellow; /* Button background color */
+           color: black; /* Button text color */
+        }
+        .w3-button:hover {
+           background-color: #ffd700; /* Button hover background color */
+        }
+        .w3-tag {
+           background-color: yellow; /* Tag background color */
+           color: black; /* Tag text color */
+        }
+        .w3-tag:hover {
+           background-color: #ffd700; /* Tag hover background color */
+        }
+    </style>
+</head>
+<body>
+<!-- Start Content -->
+<div id="home" class="w3-content">
+
+    <!-- Navbar (Sits on top) -->
+    <div class="w3-top w3-bar w3-xlarge w3-black w3-opacity-min">
+        <a href="#home" class="w3-bar-item w3-button">HOME</a>
+        <a href="#menu" class="w3-bar-item w3-button">MENU</a>
+        <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+        <a href="#contact" class="w3-bar-item w3-button">CONTACT</a>
+    </div>
+
+    <!-- Header image -->
+    <div style="height:800px;background-image:url('img_pizza.jpg');background-size:cover"
+         class="w3-display-container w3-grayscale-min">
+        <div class="w3-display-bottomleft">
+            <span class="w3-tag w3-xlarge">Open from 10am to 12pm</span>
+        </div>
+        <div class="w3-display-middle w3-center">
+            <span class="w3-text-white" style="font-size:100px">kennesaw<br>PIZZA</span>
+            <p><a href="#menu" class="w3-button w3-xxlarge w3-black">IM HUNGRY</a></p>
+        </div>
+    </div>
+
+    <!-- Menu -->
+    <div id="menu" class="w3-container w3-black w3-xxlarge w3-padding-64">
+        <h1 class="w3-center w3-jumbo w3-padding-32">THE MENU</h1>
+        <div class="w3-row w3-center w3-border w3-border-dark-grey">
+            <a href="#pizza"><div class="w3-third w3-padding-large w3-red">Pizza</div></a>
+            <a href="#crusts"><div class="w3-third w3-padding-large w3-hover-red">Crusts</div></a>
+            <a href="#starters"><div class="w3-third w3-padding-large w3-hover-red">Toppings</div></a>
+        </div>
+        <!-- Pizza, Pasta, and Starters sections go here -->
+        <div id="pizza" class="w3-container w3-white w3-padding-32">
+            <h1><b>Margherita</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$12.50</span></h1>
+            <p class="w3-text-grey">Fresh tomatoes, fresh mozzarella, fresh basil</p>
+            <h5>small&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   medium&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; large</h5>
+            <hr>
+            <h1><b>4 Cheese Pizza</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$15.50</span></h1>
+            <p class="w3-text-grey">Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</p>
+            <h5>small&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   medium&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; large</h5>
+            <hr>
+            <h1><b>Chicken</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$17.00</span></h1>
+            <p class="w3-text-grey">Fresh tomatoes, mozzarella, chicken, onions</p>
+            <h5>small&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   medium&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; large</h5>
+            <hr>
+            <h1><b>Hawaian Pizza</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$16.50</span></h1>
+            <p class="w3-text-grey">Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil</p>
+            <h5>small&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   medium&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; large</h5>
+            <hr>
+            <h1><b>Meat Lovers</b> <span class="w3-tag w3-red w3-round">Hot!</span>
+                <span class="w3-right w3-tag w3-dark-grey w3-round">$20.00</span></h1>
+            <p class="w3-text-grey">Fresh tomatoes, mozzarella, hot pepperoni, hot sausage, beef, chicken</p>
+            <h5>small&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   medium&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; large</h5>
+            <hr>
+            <h1><b>Pepperoni Pizza</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$12.50</span></h1>
+            <p class="w3-text-grey">Fresh Cheese, freshly sliced pepperoni, fresh mozzarella</p>
+            <h5>small&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   medium&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; large</h5>
+            <hr>
+            <h1><b>Classic Cheese Pizza</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$15.50</span></h1>
+            <p class="w3-text-grey">Fresh mozzarella, tomato sauce</p>
+            <h5>small&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   medium&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; large</h5>
+            <hr>
+            <h1><b>Build Your Own!</b> <span class="w3-tag w3-red w3-round">Hot!</span>
+                <span class="w3-right w3-tag w3-dark-grey w3-round">$20.00</span></h1>
+            <p class="w3-text-grey">Freshly picked ingredients, fully customizable.</p>
+            <h5>small&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   medium&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; large</h5>
+            <hr>
+        </div>
+        <h1 id="crust" class="w3-center w3-jumbo w3-padding-32">CRUSTS</h1>
+        <div class="w3-container w3-white w3-padding-32">
+            <h1><b>Pretzel</b> <span class="w3-tag w3-grey w3-round">Popular</span>
+                <span class="w3-right w3-tag w3-dark-grey w3-round">$3.00</span></h1>
+            <p class="w3-text-grey">The classic fluffy pretzel, comes with flaky salt added to give you the sensation of eating the real thing</p>
+            <hr>
+            <h1><b>Thin</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$2.00</span></h1>
+            <p class="w3-text-grey">Hate bread? We got you covered!</p>
+            <hr>
+            <h1><b>Gluten-Free</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$2.50</span></h1>
+            <p class="w3-text-grey">Who said pizza can't be healthy?</p>
+            <h1><b>Stuffed</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$3.00</span></h1>
+            <p class="w3-text-grey">Extra Cheese isn't enough? Here's some more!</p>
+            <hr>
+        </div>
+        <h1 id="starters" class="w3-center w3-jumbo w3-padding-32">TOPPINGS</h1>
+        <div class="w3-container w3-white w3-padding-32">
+            <h1><b>Onions</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$.50</span></h1>
+            <p class="w3-text-grey">Finely chopped onions, taste so good they might make you cry!</p>
+            <hr>
+            <h1><b>Mushrooms</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$.50</span></h1>
+            <p class="w3-text-grey">Thinly sliced, adds a great texture!</p>
+            <h1><b>Capsicum</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$.50</span></h1>
+            <p class="w3-text-grey">Thinly sliced, adds a great crunch!</p>
+            <hr>
+            <h1><b>Cheese</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$.50</span></h1>
+            <p class="w3-text-grey">Pick from our wide selection, can be added more than once!</p>
+            <hr>
+            <h1><b>Olives</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$.50</span></h1>
+            <p class="w3-text-grey">Small slices, cut in circles, adds a savory sensation!</p>
+            <hr>
+            <h1><b>Pepperoni</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$1.50</span></h1>
+            <p class="w3-text-grey">Perfectly circle cuts of meat, can't go wrong with extra!</p>
+            <hr>
+            <h1><b>Jalapenos</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$.50</span></h1>
+            <p class="w3-text-grey">Cut into circles, adds a kick to your pizza!</p>
+            <hr>
+            <h1><b>Chicken</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$1.00</span></h1>
+            <p class="w3-text-grey">Cubed chicken, grilled, rest assured they won't escape!</p>
+            <hr>
+        </div>
+    </div>
+        <!-- Beverages -->
+        <h1 id="beverages" class="w3-center w3-jumbo w3-padding-32">BEVERAGES</h1>
+        <div class="w3-container w3-white w3-padding-32">
+            <h1><b>Coca-Cola</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$2.50</span></h1>
+            <p class="w3-text-grey">The classic soda</p>
+            <hr>
+            <h1><b>Sprite</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$2.50</span></h1>
+            <p class="w3-text-grey">Lemon-lime soda</p>
+            <hr>
+            <h1><b>Fanta</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$2.50</span></h1>
+            <p class="w3-text-grey">Orange soda</p>
+            <hr>
+            <h1><b>Water</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$1.50</span></h1>
+            <p class="w3-text-grey">Cold and refreshing</p>
+        </div>
+    </div>
+
+    <!-- End Content -->
+</body>
+</html>
