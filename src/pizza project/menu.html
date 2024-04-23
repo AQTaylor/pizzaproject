@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizza Shop Menu</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-warning">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/"></a>
+
+    <img src="../../../../KennPizzaLogo.jpg" height="60" width="140"/>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link" href="/">Home</a>
+        <a class="nav-link" href="/Pizza">Pizza</a>
+        <a class="nav-link" href="/Drinks">Drinks</a>
+
+      </div>
+      <div class="navbar-nav ms-auto">
+        <% if(!currentUser) {%>
+        <a class="nav-link" href="/login">Login</a>
+        <a class="nav-link" href="/register">Register</a>
+        <% } else {%>
+        <a class="nav-link" href="/logout">Logout</a>
+        <% } %>
+      </div>
+    </div>
+  </div>
+
+
+</nav>
+  <style type="text/css">
+    /* Insert CSS code here */
+    .cart-button-container {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cart-button {
+        background: #e6a247;
+        border: none;
+        border-radius: 4px;
+        box-shadow: 0 3px 13px -2px rgba(0, 0, 0, .15);
+        color: #fff;
+        display: flex;
+        font-family: 'Ubuntu', sans-serif;
+        justify-content: space-around;
+        min-width: 195px;
+        overflow: hidden;
+        outline: none;
+        padding: 0.7rem;
+        position: relative;
+        text-transform: uppercase;
+        transition: 0.4s ease;
+        width: auto;
+    }
+    .cart-button:hover {
+        background: #d48a3a;
+    }
+  </style>
+</head>
+
+<div class="cart-button-container">
+  <button class="cart-button">View Cart</button>
+</div>
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: yellow; /* Making the background yellow */
+    }
+    h1, h2 {
+        color: #333;
+    }
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    li {
+        margin-bottom: 10px;
+        display: flex; /* Align items side by side */
+        justify-content: space-between; /* Space between items and button */
+    }
+    .button {
+        background-color: #0a0a23; /* Button background color */
+        color: #fff; /* Button text color */
+        border: none; /* Remove default border */
+        border-radius: 10px; /* Rounded corners */
+        padding: 10px 20px; /* Padding inside the button */
+        cursor: pointer; /* Change cursor to pointer on hover */
+        transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    }
+    .button:hover {
+        background-color: #1a1a33; /* Darker background on hover */
+    }
+  </style>
+</head>
+<body>
+<h1>Kennesaw Pizza</h1>
+
+<h2>Toppings</h2>
+<ul>
+  <li>Mozzarella <button class="button">$1.00</button></li>
+  <li>Pepperoni <button class="button">$1.50</button></li>
+  <li>Sausage <button class="button">$1.25</button></li>
+  <li>Bacon <button class="button">$1.75</button></li>
+  <li>Mushrooms <button class="button">$1.00</button></li>
+  <li>Olives <button class="button">$1.25</button></li>
+  <li>Onions <button class="button">$0.75</button></li>
+  <li>Spinach <button class="button">$1.00</button></li>
+</ul>
+
+<h2>Crust Types</h2>
+<ul>
+  <li>Thin Crust <button class="button">$0.50</button></li>
+  <li>Stuffed Crust <button class="button">$1.00</button></li>
+  <li>Gluten-Free Crust <button class="button">$1.50</button></li>
+</ul>
+
+<h2>Pizza Sizes</h2>
+<ul>
+  <li>Small (10 inches) <button class="button">$10.00</button></li>
+  <li>Medium (12 inches) <button class="button">$12.00</button></li>
+  <li>Large (14 inches) <button class="button">$14.00</button></li>
+</ul>
+
+<h2>Beverage Sizes</h2>
+<ul>
+  <li>Small (12 oz) <button class="button">$2.00</button></li>
+  <li>Medium (16 oz) <button class="button">$2.50</button></li>
+  <li>Large (20 oz) <button class="button">$3.00</button></li>
+</ul>
+
+<h2> Beverages </h2>
+<ul>
+  <li>Coca-Cola <button class="button">Select</button> </li>
+  <li>Sprite <button class="button">Select</button> </li>
+  <li>Fanta <button class="button">Select</button> </li>
+  <li>Sweet Tea <button class="button">Select</button> </li>
+</ul>
+</body>
+</html>
